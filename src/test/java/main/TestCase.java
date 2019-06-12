@@ -11,7 +11,7 @@ public class TestCase {
 	public void testHello() {
 		sm = new SampleProject();
 		
-		assertEquals("Hello World!",sm.printHello());
+		assertEquals("Hello world!",sm.printHello());
 	}
 	
 	@SuppressWarnings("static-access")
